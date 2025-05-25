@@ -149,7 +149,6 @@ aside .number h3{
 
      .rating{
         width: 55%;
-
     }
 
     .star{
@@ -157,8 +156,7 @@ aside .number h3{
         column-gap: 10px;
         justify-content: center;
         font-size: 0.8rem;
-        min-width: 300px;
-        
+        min-width: 300px;  
     }
 
     header .star:nth-of-type(1){
@@ -170,6 +168,7 @@ aside .number h3{
     header .star:nth-of-type(3){
         justify-self: flex-end;
     }
+
     /* second part */
     aside{
         height: 270px;
@@ -215,7 +214,7 @@ aside .number h3{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 2.5rem;
+        margin-top: ;
         width: 70%;
     }
 
@@ -230,5 +229,23 @@ aside .number h3{
 
     header .star{
         padding: 0.6rem 1rem;
+        display: flex;
+        column-gap: 10px;
+        justify-content: center;
+        font-size: 0.8rem;
+    }
+
+    header .star:nth-of-type(1){
+        justify-self: flex-start;
+    }
+    header .star:nth-of-type(2){
+        justify-self: center;
+    }
+    header .star:nth-of-type(3){
+        justify-self: flex-end;
+    }
+
+    header .rating{
+        background-color: brown;
     }
 }
