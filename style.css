@@ -4,22 +4,27 @@
     padding: 0;
 }
 
-body{
-  font-family: "League Spartan", sans-serif;
-  background-image:url("photo/bg-pattern-top-mobile.svg"), 
-  url("photo/bg-pattern-bottom-mobile.svg");
-  background-position: -61px -61px, 150px 600px;
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto, auto;
-}
-
-    
+  body{
+    height: 100vh;
+    background-color: black;
+  }  
 
 main{
-  width: 70%;
-  margin: auto;
-  margin-top: 1.5rem;
+font-family: "League Spartan", sans-serif;
+  background-image:url("photo/bg-pattern-top-mobile.svg"), 
+  url("photo/bg-pattern-bottom-mobile.svg");
+  background-position: -15px -25px, 150px 600px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+  background-color: yellowgreen;
 
+}
+
+.container{
+    width: 70%;
+  margin: auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 
@@ -103,16 +108,20 @@ aside .number h3{
 
 @media screen and (min-width: 750px){
 
-    body{
+    main{
          background-image:url("photo/bg-pattern-top-mobile.svg"), 
-  url("photo/bg-pattern-bottom-mobile.svg");
-  background-position: -61px -61px, 500px 150px;
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto, auto; 
+      url("photo/bg-pattern-bottom-mobile.svg");
+     background-position: -61px -61px, 500px 150px;
+     background-repeat: no-repeat, no-repeat;
+     background-size: auto, auto; 
+      height: 100vh;
+      display: flexbox;
+      align-content: center;
+
     }
 
-    main{
-      width: 80%;
+    .container{
+        width: 80%;
       padding-top: 1rem;
     }
     
@@ -184,15 +193,28 @@ aside .number h3{
 
 @media screen and (min-width: 900px) {
 
-    body{
-         background-image:url("photo/bg-pattern-top-mobile.svg"), 
-  url("photo/bg-pattern-bottom-mobile.svg");
-  background-position: -11px -11px, 1000px 140px;
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto, auto;
-    }
+     body{
+     height: 100vh;
+     background-color: black;
+  }  
 
     main{
+         background-image:url("photo/bg-pattern-top-mobile.svg"), 
+      url("photo/bg-pattern-bottom-mobile.svg");
+       background-position: -11px -11px,  1000px 140px;
+     background-repeat: no-repeat, no-repeat;
+      background-size: auto, auto;
+      background-color: yellow;
+      height: 100vh;
+      display: flexbox;
+      align-content: center;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 2.5rem;
         width: 70%;
     }
