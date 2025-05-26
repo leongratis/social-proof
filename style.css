@@ -6,7 +6,6 @@
 
   body{
     height: 100vh;
-    background-color: black;
   }  
 
 main{
@@ -16,7 +15,6 @@ font-family: "League Spartan", sans-serif;
   background-position: -15px -25px, 150px 600px;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, auto;
-  background-color: yellowgreen;
 
 }
 
@@ -195,19 +193,19 @@ aside .number h3{
 
      body{
      height: 100vh;
-     background-color: black;
+    
   }  
 
     main{
          background-image:url("photo/bg-pattern-top-mobile.svg"), 
       url("photo/bg-pattern-bottom-mobile.svg");
-       background-position: -11px -11px,  1000px 140px;
+       background-position: -11px -11px,  1005px 560px;
      background-repeat: no-repeat, no-repeat;
       background-size: auto, auto;
-      background-color: yellow;
       height: 100vh;
       display: flexbox;
       align-content: center;
+      padding-top: 0.5rem;
     }
 
     .container{
@@ -226,7 +224,6 @@ aside .number h3{
      header .rating{
         display: flex;
         flex-direction: column;
-        background-color: brown;
         width: 55%;
         padding: 1rem;
     }
@@ -243,19 +240,18 @@ aside .number h3{
         
         justify-self: flex-start;
         align-self: flex-start;
-        background-color: pink;
     }
     .rating > :nth-child(2 of .star){
         justify-self: center;
         align-self: center;
-         background-color: rgb(18, 153, 52);
+    
     }
 
     .rating > :nth-child(3 of .star){
     
         justify-self: flex-end;
         align-self: flex-end;
-         background-color: blueviolet;
+        
     }
 
     
