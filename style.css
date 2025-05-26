@@ -223,6 +223,14 @@ aside .number h3{
         text-align: left;
     }
 
+     header .rating{
+        display: flex;
+        flex-direction: column;
+        background-color: brown;
+        width: 55%;
+        padding: 1rem;
+    }
+
     header .star{
         padding: 0.6rem 0.7rem;
         display: flex;
@@ -231,25 +239,24 @@ aside .number h3{
     
     }
 
-    .star:nth-of-type(1){
-        justify-content: flex-start;
-        width: 300px;
+    .rating > :nth-child(1 of .star){
+        
+        justify-self: flex-start;
+        align-self: flex-start;
         background-color: pink;
     }
-    .star:nth-of-type(2){
-        justify-content: center;
-         width: 300px;
-         background-color: aquamarine;
+    .rating > :nth-child(2 of .star){
+        justify-self: center;
+        align-self: center;
+         background-color: rgb(18, 153, 52);
     }
-    .rating .star:nth-of-type(3){
-        justify-content: flex-end;
-         width: 300px;
+
+    .rating > :nth-child(3 of .star){
+    
+        justify-self: flex-end;
+        align-self: flex-end;
          background-color: blueviolet;
     }
 
-    header .rating{
-        background-color: brown;
-        width: 55%;
-        padding: 1rem;
-    }
+    
 }
